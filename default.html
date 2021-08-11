@@ -8,7 +8,7 @@
   <meta name="description" content="在线制作微信对话生成器和支付宝转账，可以生成微信转账、支付宝聊天、微信余额、微信零钱、微信红包、在线聊天等仿真截图，一款微商截图装逼神器" />
   <meta name="renderer" content="webkit">
   <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    name="viewport">
+        name="viewport">
   <meta content="telephone=no, address=no" name="format-detection">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -16,6 +16,8 @@
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Cache-control" content="no-cache">
   <meta http-equiv="Cache" content="no-cache">
+  <!-- <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:; connect-src *;"> -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
 
   <!-- MetisMenu CSS -->
@@ -265,7 +267,7 @@
                 <p>
                   <span>锁定旋转：</span>
                   <label><input class="rd-common" data-class="i-top-dir" type="radio" name="top-dir" value="1"
-                      checked /> 显示</label>
+                           checked /> 显示</label>
                   <label><input class="rd-common" data-class="i-top-dir" type="radio" name="top-dir" value="0" />
                     不显示</label>
                 </p>
@@ -282,9 +284,9 @@
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   <span>电池百分比：</span>
                   <label><input class="rd-common" data-class="i-top-berry-num" type="radio" name="i-top-berry-num"
-                      value="1" checked /> 显示</label>
+                           value="1" checked /> 显示</label>
                   <label><input class="rd-common" data-class="i-top-berry-num" type="radio" name="i-top-berry-num"
-                      value="0" /> 不显示</label>
+                           value="0" /> 不显示</label>
                 </p>
                 <p>
                   <span>聊天模式：</span>
@@ -305,16 +307,16 @@
                 <p>
                   <span>显示用户昵称：</span>
                   <label><input class="rd-common radio-i-b-nick" data-class="i-b-nick" type="radio" name="i-b-nick"
-                      value="0" checked /> 不显示</label>
+                           value="0" checked /> 不显示</label>
                   <label><input class="rd-common radio-i-b-nick" data-class="i-b-nick" type="radio" name="i-b-nick"
-                      value="1" /> 显示</label>
+                           value="1" /> 显示</label>
                 </p>
                 <p>
                   <span>是否可手动删消息：</span>
                   <label><input class="rd-common1 radio-i-b-nick1" data-class="i-b-nick1" type="radio" name="i-b-nick1"
-                      value="0" checked /> 是</label>
+                           value="0" checked /> 是</label>
                   <label><input class="rd-common1 radio-i-b-nick1" data-class="i-b-nick1" type="radio" name="i-b-nick1"
-                      value="1" /> 否</label>
+                           value="1" /> 否</label>
                 </p>
                 <p>
                   <span>底部输入框：</span>
@@ -346,12 +348,12 @@
                       <div class="modal-content">
                         <div class="modal-header">
                           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                              aria-hidden="true">&times;</span></button>
+                                  aria-hidden="true">&times;</span></button>
                           <h4 class="modal-title" id="myModalLabel">选择背景</h4>
                         </div>
                         <div class="modal-body">
                           <div id="bglist">
-                            <!--li><a href="javascript:void(0);"><img src="picture/1.jpeg" ></a></li-->
+                            <!--li><a href="javascript:void(0);"><img src="/picture/1.jpeg" ></a></li-->
                           </div>
                           <div style="clear:both"></div>
                         </div>
@@ -458,21 +460,21 @@
                     <div class="a-u-name">
                       <p><span>用户名：</span><input class="a-u-data-name" type="text" value=""></p>
                       <p><span>聊天内容：</span><textarea class="a-u-content1602038909210"></textarea><a
-                          class="a-u-face btn-add-face" data-input="a-u-content1602038909210" href="#">表情</a></p>
+                           class="a-u-face btn-add-face" data-input="a-u-content1602038909210" href="#">表情</a></p>
                       <p><span>红包祝福语：</span><input class="a-u-data-redpacket" type="text" value="恭喜发财，大吉大利！"></p>
                       <p><span>转账/收钱金额：</span><input class="a-u-data-pay" type="text" value=""></p>
                       <p><span>语音时间：</span><input class="a-u-data-voice" type="text" value=""></p>
                       <p><input style="margin-right:5px;" class="btn-rand-username" type="button" value="随机用户名"><input
-                          class="btn-rand-face" type="button" value="随机头像"></p>
+                               class="btn-rand-face" type="button" value="随机头像"></p>
                       <p></p>
                       <div class="a-u-pic-pic">
                         <div class="a-u-pic-show-pic"><input type="file" class="a-u-data-pic"
-                            accept="image/jpeg,image/x-png"></div>
+                                 accept="image/jpeg,image/x-png"></div>
                       </div>
                       <p></p>
                     </div>
                     <div class="a-u-dialog" style="clear:both;"><a class="btn btn-primary" data-type="left"
-                        href="#">添加文字对话</a></div>
+                         href="#">添加文字对话</a></div>
                     <div class="a-u-dialog-pic"><a class="btn btn-warning" data-type="left" href="#">添加图片对话</a></div>
                     <div class="a-u-dialog-voice"><a class="btn btn-primary" data-type="left" href="#">添加语音对话</a></div>
                     <div class="a-u-dialog-sedpacket"><a class="btn btn-danger" data-type="left" href="#">添加发红包对话</a>
@@ -480,9 +482,9 @@
                     <div class="a-u-dialog-redpacket"><a class="btn btn-danger" data-type="left" href="#">添加收红包对话</a>
                     </div>
                     <div class="a-u-dialog-pay"><a class="btn btn-primary" data-dir="send" data-type="left"
-                        href="#">添加转账对话</a></div>
+                         href="#">添加转账对话</a></div>
                     <div class="a-u-dialog-pay"><a class="btn btn-primary" data-dir="rec" data-type="left"
-                        href="#">添加收钱对话</a></div>
+                         href="#">添加收钱对话</a></div>
                     <div class="a-u-dialog-master"><a class="btn btn-primary" href="#">设为主人</a></div>
                     <div class="a-u-dialog-del"><a class="btn btn-danger" href="#">删除用户</a></div>
                   </div>
@@ -498,9 +500,9 @@
         <div class="my-btns">
           <div class="loading">正在生成，请稍候......</div>
           <input id="save" class="btn btn-primary" type="button" value="生成图片" />
-<!--          <a id="btn-water" class="btn btn-danger btn_no_water" target="_blank" href="http://www.12tool.com/pay">充值</a>-->
-<!--          <i style="margin-left:10px;">如充值成功,请点击左侧[生成图片]按钮</i>-->
-        </div> 
+          <a id="btn-water" class="btn btn-danger btn_no_water" target="_blank" href="http://www.12tool.com/pay">充值</a>
+          <i style="margin-left:10px;">如充值成功,请点击左侧[生成图片]按钮</i>
+        </div>
         <div class="phone-wrap">
           <div id="iphone" class="iphone iphone-preview">
             <div class="i-top">
@@ -522,7 +524,7 @@
               </div>
             </div>
             <div class="i-body">
-              <div class="i-b-sen-text"><img src="picture/14.jpg">
+              <div class="i-b-sen-text"><img src="/picture/14.jpg">
                 <div class="redpacket">
                   <div class="content"><i class="arraw"><b></b></i>
                     <div class="main clear-div"><i class="icon"></i>
@@ -534,23 +536,23 @@
                   </div>
                 </div>
               </div>
-              <div class="i-b-time"><span><img src="picture/a-redpacket-icon.png" class="icon_redpacket"> 冷夕颜领取了你的<a
-                    class="orange">红包</a></span><a class="msg-del"></a></div>
-              <div class="i-b-rec-text"><img src="picture/33.jpg">
+              <div class="i-b-time"><span><img src="/picture/a-redpacket-icon.png" class="icon_redpacket"> 冷夕颜领取了你的<a
+                     class="orange">红包</a></span><a class="msg-del"></a></div>
+              <div class="i-b-rec-text"><img src="/picture/33.jpg">
                 <div>
                   <p class="i-b-nick" style="display: none;">擦掉眼泪我依旧是王</p>
                   <span><i></i><em>这个是示例对话哦，你先点击右上角绿色的“清除对话”按钮，然后切换到对话设置那里，添加你要的对话类型就行了，需要多个用户进行对话请点击“添加用户”按钮添加用户，然后添加对话即可<img
-                        class="qq_emoji" src="picture/expression_22@2x.png"></em><a class="msg-del"></a></span>
+                           class="qq_emoji" src="/picture/expression_22@2x.png"></em><a class="msg-del"></a></span>
                 </div>
               </div>
               <div class="i-b-time"><span>昨天 08:33</span><a class="msg-del"></a></div>
-              <div class="i-b-rec-text"><img src="picture/33.jpg">
+              <div class="i-b-rec-text"><img src="/picture/33.jpg">
                 <div class="i-b-pay">
                   <p class="i-b-nick" style="display: none;">扬眉淡看</p><span class="i-pay-send"><i></i><em>88.88</em><a
-                      class="msg-del"></a></span>
+                       class="msg-del"></a></span>
                 </div>
               </div>
-              <div class="i-b-sen-text"><img src="picture/14.jpg">
+              <div class="i-b-sen-text"><img src="/picture/14.jpg">
                 <div class="i-b-pay"><span class="i-pay-rec"><i></i><em>88.88</em><a class="msg-del"></a></span></div>
               </div>
             </div>
@@ -997,13 +999,12 @@
     </div>
   </div>
 
-  <iframe id="ifm" frameborder="0" class="hide_ifm" src="/wx/blank_wxduihua.html"></iframe>
+  <!-- <iframe id="ifm" frameborder="0" class="hide_ifm" src="/wx/blank_wxduihua.html"></iframe> -->
 
   <script>
     function makePic(obj) {
       var _this = obj;
       var div = $('#iphone').clone();
-
       var my_image = $('.my-image');
       var mask = $('.mask');
       if (!my_image.length) {
@@ -1021,28 +1022,28 @@
         left: 0,
         top: 0
       });
-      $('#ifm').contents().find('body').append(div);
+      $('body').append(div);
       _this.hide();
       $('.loading').show();
       $('.my-image').hide();
       $('.mask').hide();
 
-
       html2canvas(div, {
         onrendered: function (canvas) {
           var myImage = canvas.toDataURL("image/png");
-
           var pop_pic = $('.pop-pic');
           var pop_class = 'pc';
           if (browser.versions.mobile) {
             pop_class = 'mobile';
           }
           pop_pic.find('.tips').addClass(pop_class);
+          // debugger
           pop_pic.find('img').attr('src', myImage);
 
           try {
             pop_pic.show();
           } catch (error) {
+            console.log(error);
 
           }
           $('#wrapper').hide();
@@ -1052,8 +1053,7 @@
 
           div.remove();
         }
-      });
-      return false;
+      })
     }
     $(function () {
       $('.pop-pic .tips a').click(function () {
@@ -1070,7 +1070,7 @@
         var _arr = ['images/bg/12.jpeg', 'images/bg/13.jpeg', 'images/bg/11.jpeg', 'images/bg/10.jpeg', 'images/bg/9.jpeg', 'images/bg/8.jpeg', 'images/bg/7.jpeg', 'images/bg/6.jpeg', 'images/bg/5.jpeg', 'images/bg/4.jpeg', 'images/bg/2.jpeg', 'images/bg/3.jpeg', 'images/bg/1.png', 'images/bg/1.jpeg'];
         var _html = '<ul>';
         for (var i in _arr) {
-          _html += '<li><a href="javascript:void(0);"><img src="picture/56b76067c0444761b633389802e7c352.gif' + _arr[i] + '" ></a></li>';
+          _html += '<li><a href="javascript:void(0);"><img src="/picture/56b76067c0444761b633389802e7c352.gif' + _arr[i] + '" ></a></li>';
         }
         _html += '</ul>';
         //选择背景
@@ -1078,7 +1078,7 @@
         _html.find('img').click(function () {
           var src = $(this).attr('src');
           $('.a-u-pic-bodybg img').attr("src", src);
-          $('.i-body').css('background-image', 'url('images / 4f3daeac1d0d495191cbecdc3ca9b5b2.gif')');
+          $('.i-body').css('background-image', `url('images / 4f3daeac1d0d495191cbecdc3ca9b5b2.gif')`);
 
         });
         $("#bglist").html(_html);
@@ -1100,7 +1100,7 @@
       }
     })();
   </script>
-  <div style="display: none">
+  <!-- <div style="display: none">
     <script>
       var _hmt = _hmt || [];
       (function () {
@@ -1110,7 +1110,7 @@
         s.parentNode.insertBefore(hm, s);
       })();
     </script>
-  </div>
+  </div> -->
 </body>
 
 </html>
