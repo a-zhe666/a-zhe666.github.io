@@ -425,7 +425,7 @@ $(function () {
         //if(is_check_brower){
 //         var browser = '<div class="browser"><a target="_blank" href="http://www.12tool.com"><span>请勿在微信里面操作,直接复制网站地址到手机浏览器里面去操作!</span></a><a class="pop-close" href="#">x</a></div>'
         $('body').append(browser)
-        $('body').append('<div class="mask"></div>')
+//         $('body').append('<div class="mask"></div>')
         $('.mask').height($(document).height())
     }
 
