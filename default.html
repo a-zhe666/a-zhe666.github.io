@@ -1006,7 +1006,7 @@
       var _this = obj;
       var div = $('#iphone').clone();
       div.id = "iphone2"
-      var _top = $('#iphone .i-body').scrollTop()
+      var _top = $('#iphone .i-body').scrollTop()-30
       var my_image = $('.my-image');
       var mask = $('.mask');
       if (!my_image.length) {
@@ -1029,7 +1029,7 @@
       $('.loading').show();
       $('.my-image').hide();
       $('.mask').hide();
-      $(div).find('.i-body').scrollTop($(div).find('.i-body').height())
+      $(div).find('.i-body').scrollTop(_top)
       html2canvas(div, {
         onrendered: function (canvas) {
           var myImage = canvas.toDataURL("image/png");
