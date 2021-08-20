@@ -1029,7 +1029,7 @@
       $('.loading').show();
       $('.my-image').hide();
       $('.mask').hide();
-      $(div).find('.i-body').scrollTop($(div).find('.i-body').height()-100)
+      $(div).find('.i-body').scrollTop($(div).find('.i-body').height()-50)
       html2canvas(div, {
         onrendered: function (canvas) {
           var myImage = canvas.toDataURL("image/png");
